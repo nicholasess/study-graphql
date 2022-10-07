@@ -1,0 +1,37 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2022-10-07T15:45:01.828Z'
+  'npm:extend:20180424':
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2022-10-07T15:45:01.828Z'
+  'npm:hoek:20180212':
+    - nodemon > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2022-10-07T15:45:01.828Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2022-10-07T15:45:01.828Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2022-10-07T15:45:01.828Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-10-07T15:45:01.828Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T15:45:01.828Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-07T15:45:01.828Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-07T15:45:01.828Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T15:45:01.828Z'
+  SNYK-JS-LODASH-567746:
+    - mongoose > async > lodash:
+        patched: '2022-10-07T15:45:01.828Z'
+  'npm:stringstream:20180511':
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2022-10-07T15:45:01.828Z'
+  'npm:tough-cookie:20170905':
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2022-10-07T15:45:01.828Z'
